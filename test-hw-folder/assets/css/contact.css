@@ -1,0 +1,133 @@
+/* Contact Page section*/
+
+body {
+    margin: 0;
+    background-image: url("../images/ignasi.png");
+    line-height: 28px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 100%;
+    height: 60px;
+    
+}
+
+li {
+    float: right;
+    
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+#a1 {
+    border-left: 1px solid #d4d4d4;
+
+}
+
+#a2 {
+    border-left: 1px solid #d4d4d4;
+
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+}
+
+
+#head1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    position: absolute;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    background-color: #777777;
+    height: 50px;
+    font-size: 12px; 
+    border-top: 5px solid #4aaaa5;
+}
+
+/*the above nave was copied from the previous section. Below are the CSS instructions for the contact form*/
+
+.container {
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff;
+    width: 960px;
+    height: 550px;
+    font-family: 'Nunito', sans-serif;
+    padding: 32px;
+    vertical-align: text-top;
+}
+
+#head4 {
+    margin-bottom: 20px;
+    color: #4aaaa5;
+    font-size: 32px;
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: #d4d4d4;
+    padding-bottom: 20px; 
+}
+
+
+.name {
+    color: #777777;
+    width: 960px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.email {
+    color: #777777;
+    width: 960px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.message {
+    color: #777777;
+    width: 960px;
+    height: 200px;
+}
+
+textarea {
+    width: 960px;
+    height: 200px;
+    border-color: #d4d4d4;
+
+}
+
+.submit {
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 100px;
+    height: 40px;
+    position: absolute;
+    top: 630px;
+
+}
+

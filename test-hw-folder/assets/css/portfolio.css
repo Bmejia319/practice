@@ -1,0 +1,184 @@
+/*General body guideline (all pages) */
+
+body {
+    margin: 0;
+    background-image: url("../images/ignasi.png");
+    line-height: 28px;
+}
+
+/*code for nav bar(all pages)*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 100%;
+    height: 60px;
+    
+}
+
+li {
+    float: right;
+    
+}
+
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 16px 20px;
+    text-decoration: none;
+    font-family: 'Nunito', sans-serif;
+}
+
+#a1 {
+    border-left: 1px solid #d4d4d4;
+
+}
+
+#a2 {
+    border-left: 1px solid #d4d4d4;
+
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+}
+
+#head1 {
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 200px;
+    height: 60px;
+    margin: auto;
+    position: absolute;
+}
+
+.portfolio-content {
+    margin: 80px;
+    font-family: 'Nunito', sans-serif;
+    background-color: #ffffff;
+    width: 960px;
+    padding: 20px;
+    position: relative;
+    left: 125px;   
+}
+
+/* code for nav bar (all pages) ends*/
+
+/* code for portfolio section begins*/
+
+.hangman {
+    position: absolute;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 205px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    top: 235px;
+    left: 30px;
+}
+
+.rpg {
+    position: absolute;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 205px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    top: 235px;
+    left: 279px;
+}
+
+
+.trivia {
+    position: absolute;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 205px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    top: 440px;
+    left: 30px;
+}
+
+.rutgers {
+    position: absolute;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 205px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    top: 645px;
+    left: 30px;
+}
+
+.rps {
+    position: absolute;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    width: 205px;
+    height: 30px;
+    text-align: center;
+    padding: 10px;
+    top: 853px;
+    left: 30px;
+}
+
+.head2 {
+    margin: 20px;
+    color: #4aaaa5;
+    font-size: 32px;
+    border-bottom: 2px solid #d4d4d4;
+    border-width: 2px;
+    padding-bottom: 20px;   
+}
+
+#pic1 {
+    margin: 10px;
+}
+
+#pic2 {
+    margin: 10px;
+}
+
+#pic3 {
+    margin: 10px;
+}
+
+#pic4 {
+    margin: 10px;
+
+}
+
+#pic5 {
+    margin: 10px;
+}
+    
+.anchors {
+    text-decoration: none; 
+    color: #ffffff;
+}
+
+.footer {
+    margin-top: 40px;
+    text-align: center;
+    color: white;
+    background-color: #777777;
+    height: 50px;
+    font-size: 12px; 
+    border-top: 5px solid #4aaaa5;
+}
+
+/*code for portfolio section ends */
+
+/*code for contact form*/
